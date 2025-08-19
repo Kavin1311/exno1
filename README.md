@@ -48,7 +48,7 @@ df.dropna()
 ```
 <img width="1100" height="500" alt="image" src="https://github.com/user-attachments/assets/4ba8f882-ea09-4ead-a82e-6b9e520a3b59" />
 
-'''
+```
 df.fillna()
 ```
 <img width="962" height="376" alt="image" src="https://github.com/user-attachments/assets/352c599d-a97e-4143-9224-b45e8da14793" />
