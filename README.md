@@ -156,9 +156,13 @@ z
 <img width="817" height="477" alt="image" src="https://github.com/user-attachments/assets/32df721c-c65a-4004-a6d3-74b83d66b2f0" />
 
 ```
+ds1 = ds[z<3]
+ds1
+```
+
 <img width="558" height="495" alt="image" src="https://github.com/user-attachments/assets/18ade4f7-0d9c-4221-8ba9-366bec0e4a2f" />
 
-```
+
 
 # Result
 Thus we have cleaned the data and removed the outliers by detection using IQR and Z -score method.
