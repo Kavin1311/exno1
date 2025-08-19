@@ -78,6 +78,7 @@ ris.describe()
 ```
 
 <img width="579" height="289" alt="image" src="https://github.com/user-attachments/assets/156125aa-0415-494e-8386-be8044aa09b0" />
+
 ```
 import seaborn as sns
 sns.boxplot(x='sepal_width',data=ris)
