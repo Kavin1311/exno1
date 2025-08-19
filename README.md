@@ -138,13 +138,15 @@ low
 high = q3+ 1.5*iqr
 high
 ```
-<img width="407" height="134" alt="image" src="https://github.com/user-attachments/assets/b727ca03-b024-4066-83e6-72b3b7d5f33e" />
+<img width="544" height="136" alt="image" src="https://github.com/user-attachments/assets/40e2750a-f73c-4028-abc3-485145252f91" />
+
 ```
  ds1 = ds[((ds['height'] >=low)& (ds['height'] <=high))]
  ds1
 ```
 
-<img width="613" height="410" alt="image" src="https://github.com/user-attachments/assets/0abebfab-bd89-4dc7-af4e-9de509e3fd72" />
+<img width="664" height="424" alt="image" src="https://github.com/user-attachments/assets/fdc6a7cc-ca80-4899-b2c4-2522b28ae8ef" />
+
 
 
 ```
@@ -153,7 +155,7 @@ import scipy.stats as stats
 z = np.abs(stats.zscore(ds['height']))
 z
 ```
-<img width="817" height="477" alt="image" src="https://github.com/user-attachments/assets/32df721c-c65a-4004-a6d3-74b83d66b2f0" />
+<img width="533" height="306" alt="image" src="https://github.com/user-attachments/assets/c962e0d4-3b3e-448f-90a2-e09599a316bc" />
 
 ```
 ds1 = ds[z<3]
